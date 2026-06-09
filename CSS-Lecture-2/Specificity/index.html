@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .red{
+        color:red;
+        }
+        #blue{
+        color:blue
+        } */
+         /* *{
+            color: gray;
+         }
+         #title{
+            color: red;
+         }
+         .h2{
+            color:blue
+         }
+         h2{
+            color: yellow;
+         } */
+    </style>
+</head>
+<body>
+    <h1># Specificity</h1>
+    <!-- <p class="red" id="blue">
+        hello i'm mohit
+    </p> -->
+    <p>When you style a webpage, sometimes multiple CSS rules target the same element. So, which one wins? That's where the CSS specificity comes in.</p>
+    <p>it's basically a weight system that determines which rule has more power.</p>
+
+    <h2 id="title" class="h2">Mohit</h2>
+    <h3>The Cascade Algorithm</h3>
+    <p>The cascade algorithm is used for solving conflicts where multiple css rules apply to an HTML element </p>
+
+    <ol>
+        <li>
+            <span>Postion and order of appearance:-</span>
+            <p>The order in which your css rules appear.</p>
+        </li>
+        <li>
+            <span>Specificity</span>
+            <p>an algorithm that determines which css selector has the strongest match (Inline > Id > Class > Element > Universal). </p>
+        </li>
+        <li>
+            <span>Origin:-</span>
+            <p>the order in which css apears and where it comes from, whether that is a  browser style, css from a browser extension, or your authorized css.</p>
+        </li>
+        <li>
+            <span>Importance:-</span>
+            <p>some css rules are weighted more heavily than others, especially with the !important rule type.</p>
+        </li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Specificity</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    !Important
+                </td>
+                <td>10,000</td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Inline
+                </td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    ID
+                </td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Class
+                </td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    Element
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    6
+                </td>
+                <td>
+                    Universal
+                </td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
