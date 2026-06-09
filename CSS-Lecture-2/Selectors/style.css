@@ -1,0 +1,30 @@
+/* Universal Selector */
+
+/* * {
+    color: rgb(91, 255, 91);
+    background-color: black;
+} */
+
+/* Element selector */
+
+/* p {
+    color: red;
+} */
+
+/* ID selector */
+
+/* #imp{
+    color: blue;
+} */
+
+/* Class selector */
+
+/* .para{
+    font-size: 32px;
+} */
+ 
+/* Group selectors */
+
+/* span, p, a{
+    color: red;
+} */
