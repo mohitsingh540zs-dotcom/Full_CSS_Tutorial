@@ -1,0 +1,9 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(68, 68, 195);
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 20px;
+}
