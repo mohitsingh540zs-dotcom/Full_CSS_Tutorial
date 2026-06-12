@@ -1,0 +1,59 @@
+header{
+    padding: 10px;
+    background-color: rgb(207, 203, 203);
+    border-radius: 10px;
+}
+header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    padding: 0 15px;
+    border-radius: inherit;
+    background-color: rgb(231, 231, 231);
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+.three button{
+    padding: 7px 5px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.three button:nth-child(1){
+    background-color: white;
+    border:  1px solid gray;
+}
+.three button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid black;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 4px;
+    transition: 0.6s;
+
+}
+ul li:hover::after{
+    width: 100%;
+}

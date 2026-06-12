@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(164, 206, 147);
+    width: auto;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    line-height: 1.5;
+
+}
+
+form {
+    background-color: rgb(238, 239, 235);
+    padding: 0px 60px 5px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: inherit;
+}
+
+.field {
+    padding: 7px 0;
+}
+
+input {
+    padding: 7px 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 75%;
+    background-color: white;
+
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+button[type="reset"] {
+    background-color: red;
+}
+
+span {
+    width: 0;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+    border: 1px solid green;
+
+}
+
+button[type="reset"]:hover span {
+    width: 100%;
+    border: 1px solid red;
+}
+
+button:hover {
+    border: none;
+}

@@ -1,0 +1,30 @@
+span{
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+div{
+    text-align: center;
+}
+.transformer{
+    text-transform: uppercase;
+}
+.space{
+    letter-spacing: 5px;
+}
+.text{
+    line-height:2.5;
+}
+#shadowText{
+    /* text-shadow: 4px 5px 3px rgb(134, 129, 129); */
+    text-shadow: 0 20px 3px red;
+}
+.over{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
